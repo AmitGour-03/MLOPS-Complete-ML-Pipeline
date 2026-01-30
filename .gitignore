@@ -1,3 +1,10 @@
+## I do not want to track data, model, reports because they may contain large files
+data
+# models
+# reports
+
+## But as this is a learning project, so I am not untracking models, and reports.
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -56,7 +63,7 @@ cover/
 *.pot
 
 # Django stuff:
-*.log
+# *.log         ## I want to show my log files in version control
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
