@@ -20,6 +20,8 @@ Setting up dcv pipeline (with params)
 11> Now git add, commit, push
 
 Expermients with DVC:
+## Now, to achieve the better performance of our ml application/model, we experimented around 20-25 experiments but somewhere in between i got great performance with some specific params, so if I track my experiments then I will easily locate those params and this is great industry practice too.
+## Document these experimentation is not the industry grade practice.
 12> pip install dvclive
 13> Add the dvclive code block (mentioned below)
 14> Do "dvc exp run", it will create a new dvc.yaml(if already not there) and dvclive directory (each run will be considered as an experiment by DVC)
