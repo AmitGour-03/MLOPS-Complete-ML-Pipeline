@@ -4,9 +4,13 @@ Building Pipeline:
 3> Add data, models, reports directories to .gitignore file
 4> Now git add, commit, push
 
-Setting up dcv pipeline (without params)
+## Rightnow, we have completed our ml pipeline and run each components individually, but when our project will go to production after containerization, this individual execution will not work there. There has to be a smooth automatic way where in single shot all things should run.
+## There are various ways to do such automation such as:
+## ** Make a pipeline.py file and import all components in that and finally run that pipeline.py file.
+## ** This above automation process can be made fluent using dvc. So, here we'll make a pipeline in yaml file (i.e., dvc.yaml).
+Setting up dcv pipeline (without params): Now, in this we need to automate this pipeline using dvc
 5> Create dvc.yaml file and add stages to it.
-6> dvc init then do "dvc repro" to test the pipeline automation. (check dvc dag)
+6> dvc init then do "dvc repro" (reproduce) to test the pipeline automation. (check dvc dag)
 7> Now git add, commit, push
 
 Setting up dcv pipeline (with params)

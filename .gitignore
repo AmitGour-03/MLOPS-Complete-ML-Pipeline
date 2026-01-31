@@ -1,7 +1,7 @@
 ## I do not want to track data, model, reports because they may contain large files
 data
-# models
-# reports
+models
+reports
 
 ## But as this is a learning project, so I am not untracking models, and reports.
 
